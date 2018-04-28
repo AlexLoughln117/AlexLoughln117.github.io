@@ -1,0 +1,107 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+/*GLOBAL STYLES*/
+
+
+.page-content{padding-top: 0px;}
+.large-heading{margin-top:60px;min-height:300px;display: flex;justify-content: center;align-items: center;background-color: #8EC5FC;
+background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);color: #fff;}
+.cd-hero {height: 70vh;margin-top: 80px;display: table;
+width: 100%;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;}
+.cd-hero .cd-hero-content {display: table-cell;vertical-align: middle;}
+
+/*GRID CSS-----------------------------*/
+
+*, ::after, ::before { -webkit-box-sizing: inherit;box-sizing: inherit;}
+.row{display: flex;}
+.col-md-6 {width: 50%;}
+
+
+/*HEADER CSS--------------------------*/
+
+.site-header {    display: flex;
+    align-items: center;justify-content: space-around;  border-top: 0px solid #8EC5FC;border-bottom: 0px solid;   position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;}
+ .header-wrapper{padding: 0 15px;width: 100%;height: 100%;display: flex;justify-content: space-between;align-items: center;}
+.site-title{    color: black!important;
+    font-weight: bolder!important;
+    font-size: 1.5rem!important;
+    border: solid;
+    border-top-width: medium;
+    border-right-width: medium;
+    border-bottom-width: medium;
+    border-left-width: medium;
+    border-radius: 1px;
+    border-width: 2.2px;
+    padding: 5px 40px;
+    align-content: left;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.2);
+    top: 2%;
+    right: 30%;
+    -webkit-box-shadow: 7px 12px 0px 0px rgba(0,0,0,1);
+    -moz-box-shadow: 7px 12px 0px 0px rgba(0,0,0,1);
+    box-shadow: 3px 5px 0px 0px rgba(0,0,0,1);line-height: normal;}
+
+
+/*HOMEPAGE CSS----------------------------------------*/
+
+.home{padding-top: 25px;}
+.ctn--home{width: 100%;display: flex;justify-content: center;align-items: center;-webkit-flex-direction: column;margin-top: 80px;flex-direction: column;}
+.ctn--home a:hover{text-decoration: none;}
+.article {max-height: 750px;height: 90vh;width: 100vw;max-width: 1500px;display: flex;justify-content: center;align-items: center;}
+.box-two {max-height: 750px;background-color: #183f63;height: 90vh;width: 100vw;display: flex;justify-content: center;align-items: center;
+ background-repeat: no-repeat;background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);flex-direction: column;}
+ .article h1 { font-weight: 900;font-size: 100px;line-height: .96;letter-spacing: .02em;text-transform: uppercase;}
+ .home-games2018 h1 { transition: all .25s ease-in-out;color: #fff;margin: 0px;width: 50%;padding: 0 25px;}
+ .home-games2018:hover h1 {text-decoration:none; -webkit-text-stroke-color: #fff;-webkit-text-stroke-width: 1px; color: transparent !important;-webkit-text-stroke-width: 2px;}
+.box-two:hover .home-games2018 h1 {text-decoration:none; -webkit-text-stroke-color: #fff;-webkit-text-stroke-width: 1px; color: transparent !important;-webkit-text-stroke-width: 2px;}
+.home-games2018 span {transition: all .15s ease-in-out;-webkit-text-stroke-color: #fff; -webkit-text-stroke-width: 1px;color: transparent;
+-webkit-text-stroke-width: 2px;}
+.home-games2018:hover span {color: #fff !important;}
+.box-two:hover .home-games2018 span {color: #fff !important;}
+.article h4 {width: 100%;padding: 10px 25px;color: #fff;line-height: .96;letter-spacing: .02em;text-transform: uppercase;margin-bottom: 15px;width: 100%;
+padding: 10px 25px;}
+.box-three {background-image: linear-gradient( 135deg, #E8D07A 0%, #5312D6 100%);}
+.book--heading { -webkit-transform: translate3d(0,40px,0);transform: translate3d(0,40px,0);-webkit-transition: -webkit-transform 0.35s;
+transition: transform 0.35s;padding: 0 !important;}
+.box-three:hover .book--heading { -webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
+.book--subheading {opacity: 0;-webkit-transition: opacity 0.2s, -webkit-transform 0.35s;transition: opacity 0.2s, transform 0.35s;
+transition-duration: 0.2s, 0.35s;transition-delay: 0s, 0s;margin-bottom: 0px;}
+.box-three:hover .book--subheading {-webkit-transition-delay: 0.05s;transition-delay: 0.05s;-webkit-transition-duration: 0.35s;transition-duration: 0.35s;
+opacity: 1;-webkit-transform: translate3d(0,40px,0);transform: translate3d(0,15px,0);}
+.myJam--imgCtn div {width: 100%;display: flex;justify-content: center;}
+.myJam--img {opacity: 0.7;filter: alpha(opacity=50);transition: all .45s ease-in-out;}
+.content--border {border: 16px solid #ff6b68;display: flex;justify-content: center;width: 100%;}
+.jam--ctn {color: #fff;display: flex;flex-direction: column;justify-content: center;padding: 40px;}
+.jam--ctn h2, h3, p {margin-bottom: 15px !important;}
+.jam--title {font-weight: bold;font-size: 37px;}
+.myJamSub {font-style: italic;}
+.myJam--imgCtn {background-color: #000000;display: flex;justify-content: center;padding: 25px;padding-right: 25px;padding-left: 25px;}
+.myJam--contentCtn {background-color: #000000;display: flex;justify-content: center;padding: 25px;padding-right: 25px;padding-left: 25px;}
+
+/*GAMES LISTING POSTS CSS-----------------------------*/
+
+.article--game--center{display: flex;}
+.hero---title{ background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);}
+.hero---title h1{margin-bottom: 0px;}
+.article--game--center {padding: 30px;transition: all 0.5s ease; max-width: 1500px;}
+
