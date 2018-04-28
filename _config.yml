@@ -27,6 +27,8 @@ header_pages:
   - about.md
   - contact.md
 show_excerpts: true
+sass:
+    style: compressed
 collections:
   staff_members:
     output: true
