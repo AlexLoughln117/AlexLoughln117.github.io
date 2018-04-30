@@ -1,0 +1,8 @@
+- link: /
+  name: Home
+- link: /about/
+  name: About
+- link: /games/
+  name: Games
+- link: /category/books
+  name: Books

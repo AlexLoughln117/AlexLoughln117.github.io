@@ -4,13 +4,13 @@ layout: default
 
 <section class="cd-hero" style=" background: url(<?php echo the_post_thumbnail_url('large') ?> )no-repeat center center;background-size: cover;">
                 <div class="cd-hero-content">
-                   <div class="hero---title" style="width: 45%; margin-left: 81px;
+                   <div class="hero---title Hero-{{ page.category }}" style="width: 45%; margin-left: 81px;
                         padding: 50px;">
                   <h1 class="" style="color: #fff;
                         font-weight: 700;font-size: 40px;
                        ">
                         {{ page.title }}</h1>
-                        <p style="color: #fff;"><?php echo $intro; ?></p>
+                        <p style="color: #fff;">{{ page.description }}</p>
                         </div>
                   </div>
 </section> 
