@@ -165,6 +165,7 @@ transform: scale(1.05,1.05);text-decoration: none;}
 padding: 17px;color: #fff;cursor: pointer;position: relative;float: left;}
 .article--sidebar {display: flex;justify-content: center;}
 .postlist-img{display: flex;align-items: center;}
+.post-credits{width: 80%;margin: 0 auto;}
 
 /*ALL GAMES PAGE CSS--------------------------------------------*/
 
@@ -197,13 +198,70 @@ padding: 17px;color: #fff;cursor: pointer;position: relative;float: left;}
   .home-games2018:hover span{color: transparent!important;}
 }
 
+/*BOOKS CSS*/
+
+.books--ctn {
+    width: 100%;
+    display: flex;
+    padding: 0 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+.book--container {
+    min-height: 800px;
+}
+.book--info {
+    width: 80%;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+.book--info h6 {
+    font-size: 14px;
+}
+.book--img {
+    width: 242px;
+    max-width: 80%;
+    transition: all 0.5s ease;
+    max-height: 341px;
+}
+.book--title {
+    font-size: 26px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+.book--info p {
+    padding-top: 10px;
+}
+.book--info hr {
+    background-color: #8F3985;
+    height: 1.5px;
+    background-image: linear-gradient( 135deg, #F97794 0%, #623AA2 100%);
+}
+.book--img:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    webkit-transform: scale(1.05, 1.05);
+    transform: scale(1.05, 1.05);
+}
+
 
 /*MOBILE CSS--------------------------------------------------------*/
 
 @media(max-width: 800px){
+     .site-nav{position: relative;top: 0px;}
      .article--game--center{flex-wrap: wrap;}
      .article--game--center .col-md-6{padding: 0px;}
      .home-games2018 h1{width: auto;}
+     .article{max-height: none;width: 100vw;}
+     .article-intro{height: auto;}
+     .home-intro {padding: 25px 0;}
+     .home-intro h2 {word-wrap: break-word;width: 100%;padding: 0 25px;font-size: 60px;}
+     .home-intro h3 {width: 100%;padding: 0 25px;}
      .article h4{width: auto;}
-     .article h1 {text-align: left;}
+     .article h1 {text-align: left;font-size: 75px;}
+     .home-games2018 h1 {padding: 0 25px;}
+     .home-games2018 h4 {padding: 0 25px;}
+     .book--center{padding: 0 25px;}
+     .site-nav label {margin-bottom: 0px;}
 }

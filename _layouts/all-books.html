@@ -15,9 +15,27 @@ layout: default
                   </div>
 </section> 
 
- <div class="allbooks-ctn">
-{% for post in site.categories[page.category] %}
-
-   
-{% endfor %}
- </div>
+<section>
+     <div class="books--ctn">
+        {% for post in site.categories[page.category] %}
+             
+             <div class="col-sm-4 col-float book--container" style="">
+                  <div class="">
+                           <div class="" style="text-align: center;">
+                             
+                                      <img class="book--img" src="{{ post.featured-img }}" alt="">
+                                
+                           </div>
+                          <div class="book--info" style=""> 
+                          <h6 style="" class="">{{ post.author }}</h6>
+                           <h4 class="book--title" style="">{{ post.title }}</h4>
+                           <hr>
+                            {{ post.content }}
+                            </div> 
+                     
+                  </div>
+              </div>
+           
+        {% endfor %}
+         </div>
+</section>
