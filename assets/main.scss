@@ -79,22 +79,26 @@ background-size: cover;}
 .box-two {max-height: 750px;background-color: #183f63;height: 90vh;width: 100%;display: flex;justify-content: center;align-items: center;
  background-repeat: no-repeat;background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);flex-direction: column;}
  .article h1 {width: auto; text-align: left; font-weight: 900;font-size: 100px;line-height: .96;letter-spacing: .02em;text-transform: uppercase;}
- .home-intro{width: 100%;}
- .home-intro h2{transition: all 0.5s ease;color: #fff;width: 70%;margin: 0 auto;margin-bottom:15px;font-weight: 900;font-size: 70px;line-height: .96;letter-spacing: .02em;text-transform: uppercase;}
- .home-intro h3{line-height: 1.22;color: #fff;width: 70%;margin: 0 auto;}
+ .home-intro{width: 70%;}
+ .home-intro h2{transition: all 0.5s ease;color: #fff;width: 100%;margin: 0 auto;margin-bottom:15px;font-weight: 900;font-size: 70px;line-height: .96;letter-spacing: .02em;text-transform: uppercase;}
+ .home-intro h3{line-height: 1.22;color: #fff;width: 100%;margin: 0 auto;}
  .home-intro h1{width: auto; text-align: center; transition: all .25s ease-in-out;color: #fff;margin: 0px;padding: 0 25px;}
  .home-intro h4 {transition: all 0.5s ease;width:auto;text-align: center;}
+ .home-intro-link{color: #fff;transition: all .25s ease-in-out;}
+ .home-intro:hover .home-intro-link{text-decoration: underline;}
  /*.article-intro:hover > .home-intro h3{webkit-transform: scale(1.05, 1.05);   transform: scale(1.05, 1.05);}*/
- .home-games2018 h1 { transition: all .25s ease-in-out;color: #fff;margin: 0px;width: 50%;padding: 0px;}
+ .home-games2018{width: 70%;}
+ .home-games2018 h1 { transition: all .25s ease-in-out;color: #fff;margin: 0px;width: 48%;max-width: 479px;padding: 0px;}
  .home-games2018:hover h1 {text-decoration:none; -webkit-text-stroke-color: #fff;-webkit-text-stroke-width: 1px; color: transparent !important;-webkit-text-stroke-width: 2px;}
 .box-two:hover .home-games2018 h1 {text-decoration:none; -webkit-text-stroke-color: #fff;-webkit-text-stroke-width: 1px; color: transparent !important;-webkit-text-stroke-width: 2px;}
 .home-games2018 span {transition: all .15s ease-in-out;-webkit-text-stroke-color: #fff; -webkit-text-stroke-width: 1px;color: transparent;
 -webkit-text-stroke-width: 2px;}
 .home-games2018:hover span {color: #fff !important;}
 .box-two:hover .home-games2018 span {color: #fff !important;}
-.article h4 {color: #fff;line-height: .96;letter-spacing: .02em;text-transform: uppercase;margin-bottom: 15px;width: auto;
+.article h4 {font-size: 24px; color: #fff;line-height: 1.22;letter-spacing: .02em;margin-bottom: 15px;width: auto;
 padding: 10px 0px;}
 .box-three {background-image: linear-gradient( 135deg, #E8D07A 0%, #5312D6 100%);}
+.book--center{width: 70%;}
 .book--heading { -webkit-transform: translate3d(0,40px,0);transform: translate3d(0,40px,0);-webkit-transition: -webkit-transform 0.35s;
 transition: transform 0.35s;padding: 0 !important;}
 .box-three:hover .book--heading { -webkit-transform: translate3d(0,0,0);transform: translate3d(0,0,0);}
@@ -270,9 +274,10 @@ padding: 17px;color: #fff;cursor: pointer;position: relative;float: left;}
      .article h1 {text-align: left;font-size: 75px;}
      .home-games2018 h1 {padding: 0 25px;}
      .home-games2018 h4 {padding: 0 25px;}
-     .book--center{padding: 0 25px;}
+     .book--center{padding: 0 25px;width: 100%;}
      .site-nav label {margin-bottom: 0px;}
      .hero---title {width: 55% !important;margin: 0 auto !important;margin-top: 100px !important;margin-bottom: 35px !important;}
+     .home-games2018{width: 100%;}
 }
 
 @media(max-width: 600px){
@@ -280,4 +285,5 @@ padding: 17px;color: #fff;cursor: pointer;position: relative;float: left;}
     margin-top: 25px !important;margin-bottom: 35px !important;}
     .cd-hero {margin-top: 0px;}
     .books--ctn{padding: 0px;}
+    .games--container a{width: 55%;}
 }
