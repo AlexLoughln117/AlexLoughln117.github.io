@@ -34,7 +34,7 @@ layout: default
                              <hr>
                              
                               <p style=""> {%- if site.show_excerpts -%}
-                                {{ post.excerpt }}
+                                {{ post.excerpt | truncatewords:50 }}
                               {%- endif -%}</p>
                              
                              <div>
