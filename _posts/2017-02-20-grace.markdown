@@ -1,0 +1,11 @@
+---
+layout: post
+title: The Grace of Kings
+date: '2017-11-05 11:14:28 +0100'
+categories: books
+featured-img: /assets/images/book-images/grace.jpeg
+published: true
+author: Ken Liu
+---
+
+The Grace of Kings is an epic fantasy through the eyes of a Chinese author. This brings really interesting twists to old fantasy tropes, unbridled with how things are meant to be done that so many authors are stuck on. World building like Toliken but a world that follows different rules than you would expect. Overall an excellent fantasy read.
