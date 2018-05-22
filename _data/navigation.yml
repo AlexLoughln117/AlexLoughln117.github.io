@@ -1,7 +1,5 @@
 - link: /
   name: Home
-- link: /about/
-  name: About
 - link: /category/work
   name: Work
 - link: /games/

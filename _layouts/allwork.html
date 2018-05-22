@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<section class="cd-hero" style=" background: url(<?php echo the_post_thumbnail_url('large') ?> )no-repeat center center;background-size: cover;">
+                <div class="cd-hero-content">
+                   <div class="hero---title Hero-{{ page.category }}" style="width: 45%; margin-left: 81px;
+                        padding: 50px;">
+                  <h1 class="" style="color: #fff;
+                        font-weight: 700;font-size: 40px;
+                       ">
+                        {{ page.title }}</h1>
+                        <p style="color: #fff;">{{ page.description }}</p>
+                        </div>
+                  </div>
+</section> 
+
+<div class="container">
+      <div class="row " style="margin: 0;display: flex;">
+{% for post in site.categories[page.category] %}
+
+      <div class="col-md-6" style="">
+
+        <div class="article--work">
+          <div class="casestudy-img-ctn" style="">
+             <img class="casestudy-img" src="{{ post.allwork-img}}" alt="">
+          </div>
+          <div class="casestudy-copy-ctn">
+                <h4 style="width: 100%;" class="article--work--title"> {{ post.title | escape }}</h4>
+                             
+                             
+                              <p style=""> {%- if site.show_excerpts -%}
+                                {{ post.headline | truncatewords:50 }}
+                              {%- endif -%}</p>
+                             <hr>
+                             <div class="article--work--btns">
+                                <a href="{{ post.url | relative_url }}">Read More</a>
+                             </div>
+          </div>
+           
+                           
+        </div>
+
+                             
+                     
+           
+      </div>
+
+   
+{% endfor %}
+ </div>
+</div>
+    
