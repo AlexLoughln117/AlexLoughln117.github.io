@@ -7,8 +7,10 @@ allwork-img: /assets/images/work-images/NationalGalleryHunt.png
 featured-img: /assets/images/work-images/G3.png
 published: true
 platform: Website
-language: HTML5, CSS and jQuery
-headline: The National Gallery Hunt is a web based game, which gives people a new way to explore The National Gallery. 
+language: 'HTML5, CSS and jQuery'
+headline: >-
+  The National Gallery Hunt is a web based game, which gives people a new way to
+  explore The National Gallery.
 ---
 
 The National Gallery Hunt is a web app based treasure hunt game. It's centred around exploring The National Gallery. One of London’s top attractions and most famous art galleries in the world. Users will be encouraged to explore the Gallery in a way they would never do just walking around on their own. All while learning a great deal about some of the most famous paintings in the world. And in a way that is much more exciting than a simple blurb beside the painting itself or an audio guide.
@@ -27,7 +29,7 @@ The National Gallery Hunt will encourage visitors to explore The National Galler
 
 The aim of the game is to successfully name 10 different paintings located with The National Gallery. Visitor’s will have 4 steps within the game to identify each painting. The earlier they successfully name the painting the more points they will receive.
 
-How the Game Works
+### How the Game Works
 
 The first step on each painting, Visitor’s are shown a quarter section of the painting in question. They can either try and guess the name or move onto the next step.
 
@@ -37,4 +39,4 @@ The third step is a tumbled word puzzle. This puzzle is the name of the painter 
 
 By now they should be able to locate the painting and thus it’s name and enter it for points.
 
-Having tested and used The National Gallery Hunt. It does encourage and reward visitors to explore the gallery more than they normally would. And it adds an element of fun and competition that would not be there normally. 
+Having tested and used The National Gallery Hunt. It does encourage and reward visitors to explore the gallery more than they normally would. And it adds an element of fun and competition that would not be there normally.
