@@ -7,8 +7,10 @@ allwork-img: /assets/images/work-images/NationalGalleryHunt.png
 featured-img: /assets/images/work-images/G3.png
 published: true
 platform: Website
-language: HTML5, CSS and jQuery
-headline: The National Gallery Hunt is a web based game, which gives people a new way to explore The National Gallery. 
+language: 'HTML5, CSS and jQuery'
+headline: >-
+  The National Gallery Hunt is a web based game, which gives people a new way to
+  explore The National Gallery.
 ---
 #### The Short:
 
@@ -33,7 +35,11 @@ The National Gallery Hunt will encourage visitors to explore The National Galler
 
 The aim of the game is to successfully name 10 different paintings located with The National Gallery. Visitor’s will have 4 steps within the game to identify each painting. The earlier they successfully name the painting the more points they will receive.
 
+<<<<<<< HEAD
 #### How the Game Works:
+=======
+### How the Game Works
+>>>>>>> origin/master
 
 The first step on each painting, Visitor’s are shown a quarter section of the painting in question. They can either try and guess the name or move onto the next step.
 
@@ -43,9 +49,13 @@ The third step is a tumbled word puzzle. This puzzle is the name of the painter 
 
 By now they should be able to locate the painting and thus it’s name and enter it for points.
 
+<<<<<<< HEAD
 Having tested and used The National Gallery Hunt. It does encourage and reward visitors to explore the gallery more than they normally would. And it adds an element of fun and competition that would not be there normally. 
 
 {: .multi-image-ctn}
 ![image-title-here](/assets/images/work-images/G2.png){:class="multi-image-3"}
 ![image-title-here](/assets/images/work-images/G4.png){:class="multi-image-3"}
 ![image-title-here](/assets/images/work-images/G5.png){:class="multi-image-3"} 
+=======
+Having tested and used The National Gallery Hunt. It does encourage and reward visitors to explore the gallery more than they normally would. And it adds an element of fun and competition that would not be there normally.
+>>>>>>> origin/master
