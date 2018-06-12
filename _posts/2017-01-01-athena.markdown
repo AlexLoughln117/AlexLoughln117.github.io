@@ -1,0 +1,22 @@
+---
+layout: casestudy
+title: Athena Walks & Tours
+date: '2017-01-01 11:14:28 +0100'
+categories: work
+allwork-img: /assets/images/work-images/owl.png
+featured-img: /assets/images/work-images/athenaLogo.png
+published: true
+platform: Website
+language: HTML5, CSS and jQuery
+headline: Athena Walks & Tours is an exciting new brand and identity based out of Belfast, Northern Ireland.
+---
+
+Initially focusing on in depth and unusual historical tours and information from Belfast’s rich and varied history. I helped create the branding and identity for something which will one day branch out to be a brand synonymous with quality and excellence.
+
+{: .single-image-ctn}
+![image-title-here](/assets/images/work-images/athena2.png){:class="work-image single-image"}
+
+The owl was first chosen to represent the brand as it is the universal symbol for knowledge and wisdom. This tied with the name Athena, who was the ancient Greek goddess of wisdom. She was always depicted as having an owl on her shoulder. Is how the owl came to be. Yet the owl needed to be modern, fresh and bold. It could not be a classic representation as this would not reflect the forward thinking nature and outlook of the brand. The bold, black lines and the striking colour palette all help show the new age boldness that Athena shall strive for. 
+
+{: .single-image-ctn}
+![image-title-here](/assets/images/work-images/owl.png){:class="work-image-large single-image"}

@@ -19,8 +19,9 @@ layout: default
       <div class="row " style="margin: 0;display: flex;flex-flow: row wrap;">
 {% for post in site.categories[page.category] %}
 
-      <div class="col-md-6" style="">
+      <div class="col-md-6" style="margin-bottom:20px;">
 
+      <a href="{{ post.url | relative_url }}" class="work-link">
         <div class="article--work">
           <div class="casestudy-img-ctn" style="">
              <img class="casestudy-img" src="{{ post.allwork-img}}" alt="">
@@ -34,14 +35,14 @@ layout: default
                               {%- endif -%}</p>
                              <hr>
                              <div class="article--work--btns">
-                                <a href="{{ post.url | relative_url }}">Read More</a>
+                                Read More
                              </div>
           </div>
-           
+        
                            
         </div>
 
-                             
+        </a>                     
                      
            
       </div>

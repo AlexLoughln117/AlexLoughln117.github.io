@@ -10,12 +10,18 @@ platform: Website
 language: HTML5, CSS and jQuery
 headline: The National Gallery Hunt is a web based game, which gives people a new way to explore The National Gallery. 
 ---
+#### The Short:
 
 The National Gallery Hunt is a web app based treasure hunt game. It's centred around exploring The National Gallery. One of London’s top attractions and most famous art galleries in the world. Users will be encouraged to explore the Gallery in a way they would never do just walking around on their own. All while learning a great deal about some of the most famous paintings in the world. And in a way that is much more exciting than a simple blurb beside the painting itself or an audio guide.
-
-The National Gallery Hunt was built using HTML5, CSS and jQuery. HTML and Css were used to structure and style the site. With the jQuery being used for all the game logic.
+The National Gallery Hunt was built using HTML5, CSS and jQuery. HTML and CSS were used to structure and style the site. With the jQuery being used for all the game logic.
 It was designed and created by a team of four people. Each of us having a hand in the planning, design and implementation.
-A first prototype had to be delivered to a very tight deadline. This meant the focus of the project was on proving the functionality and idea of the game. Styling and layout will be refined for the second prototype. 
+A first prototype had to be delivered to a very tight deadline. This meant the focus of the project was on proving the functionality and idea of the game. Styling and layout was refined for the second prototype.
+
+{: .multi-image-ctn}
+![image-title-here](/assets/images/work-images/gallery1.png){:class="multi-image"}
+![image-title-here](/assets/images/work-images/G1.png){:class="multi-image"} 
+
+#### The Long:
 
 The National Gallery Hunt was designed and built to satisfy a brief to create a mobile focused treasure hunt game built for the web. With a special focus that the game should be educational in some aspect.
 
@@ -27,7 +33,7 @@ The National Gallery Hunt will encourage visitors to explore The National Galler
 
 The aim of the game is to successfully name 10 different paintings located with The National Gallery. Visitor’s will have 4 steps within the game to identify each painting. The earlier they successfully name the painting the more points they will receive.
 
-How the Game Works
+#### How the Game Works:
 
 The first step on each painting, Visitor’s are shown a quarter section of the painting in question. They can either try and guess the name or move onto the next step.
 
@@ -38,3 +44,8 @@ The third step is a tumbled word puzzle. This puzzle is the name of the painter 
 By now they should be able to locate the painting and thus it’s name and enter it for points.
 
 Having tested and used The National Gallery Hunt. It does encourage and reward visitors to explore the gallery more than they normally would. And it adds an element of fun and competition that would not be there normally. 
+
+{: .multi-image-ctn}
+![image-title-here](/assets/images/work-images/G2.png){:class="multi-image-3"}
+![image-title-here](/assets/images/work-images/G4.png){:class="multi-image-3"}
+![image-title-here](/assets/images/work-images/G5.png){:class="multi-image-3"} 

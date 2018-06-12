@@ -264,19 +264,37 @@ padding: 17px;color: #fff;cursor: pointer;position: relative;float: left;}
 
 /*ALL WORK PAGE CSS---------------------------------------------------*/
 
+.work-link{color: #000;}
+.work-link:hover{text-decoration: none;}
 .article--work{text-align: center; display: flex;flex-direction: column; height: 100%;width: 100%;margin:0 auto; justify-content: center;align-items: center;padding: 0 15px;}
 .casestudy-img{max-height: 200px;object-fit: contain;max-width: 75%;}
 .article--work--title{font-size: 32px;line-height: 1;padding-top: 10px;line-height: 1;}
-.casestudy-img-ctn{background-color: #f6f6f6;width: 100%;padding: 25px 0;margin-bottom: 10px;height: 100%;display: flex;justify-content: center;align-items: center;}
-.casestudy-copy-ctn{width: 80%;margin: 0 auto;}
+.casestudy-img-ctn{background-color: #f6f6f6;width: 100%;padding: 25px 0;margin-bottom: 10px;height: 250px;display: flex;justify-content: center;align-items: center;}
+.casestudy-copy-ctn{width: 80%;margin: 0 auto;color: #000;}
 .article--work--btns{margin-top: 10px;margin-bottom: 10px;}
+
+/*WORK ARTICLE PAGE CSS------------------------------------------------*/
+
+.work-copy{width: 85%;display: flex;flex-direction: column;margin: 0 auto;}
+.work-image{margin: 20px 0px;border-radius: 1.5px;display: block;background-color: #f6f6f6;}
+.work-image-large{max-height: 300px;object-fit: contain;}
+.single-image-ctn{display: flex;background-color: #f6f6f6;justify-content: center;align-items: center;margin-bottom: 25px !important;
+margin-top: 10px;}
+.single-image{padding:25px 0;}
+.multi-image-ctn{display: flex;background-color: #f6f6f6;margin-bottom: 25px !important;
+margin-top: 10px;justify-content: space-evenly;}
+.multi-image{width: 50%;max-height: 500px;object-fit: contain;padding:25px 0px;}
+.multi-image-3{max-height: 500px;object-fit: contain;padding:25px 0px;}
+.hero-tagline{margin-bottom: 0 !important;margin-top: 8px;color: #fff;}
+.work-copy h4{font-weight: bold;}
 
 /*FOOTER CSS--------------------------------------------------------*/
 
 .footer-wrapper{text-align: center;}
-.footer-menu{display: flex;justify-content: center;}
+.footer-menu{display: flex;justify-content: center;flex-direction: column;}
 .site-footer{border: 0px solid;}
 .footer-col{margin-bottom: 0;padding: 0;}
+.footer-col a{color: #000;}
 
 
 /*MOBILE CSS--------------------------------------------------------*/
