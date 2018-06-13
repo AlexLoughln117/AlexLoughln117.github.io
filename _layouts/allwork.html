@@ -10,12 +10,13 @@ layout: default
                         font-weight: 700;font-size: 40px;
                        ">
                         {{ page.title }}</h1>
-                        <p style="color: #fff;">{{ page.description }}</p>
+                        <p style="color: #fff;margin-top: 10px;margin-bottom: 10px !important;">{{ page.description }}</p>
+                        <a class="hero-link" href="/assets/Downloads/AlexLoughlin-CV(1).pdf" target="_blank">View CV</a>
                         </div>
                   </div>
 </section> 
 
-<div class="container">
+<div class="container allwork-ctn">
       <div class="row " style="margin: 0;display: flex;flex-flow: row wrap;">
 {% for post in site.categories[page.category] %}
 

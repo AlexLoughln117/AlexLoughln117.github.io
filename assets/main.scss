@@ -192,7 +192,7 @@ padding: 17px;color: #fff;cursor: pointer;position: relative;float: left;}
 .games--main section{height: 50%;display: flex;justify-content: center;align-items: center;flex-direction: column;padding: 0px 20px;}
 .games--main section:hover {text-decoration: none;}
 .games--main section:hover > h1{webkit-transform: scale(1.05, 1.05);   transform: scale(1.05, 1.05);}
-.games--main section p{color: #fff;text-transform: uppercase;text-align: center;}
+.games--main section p{color: #fff;text-align: center;}
 .top-section {
   position: relative;
   margin-top: 0px;
@@ -209,7 +209,7 @@ padding: 17px;color: #fff;cursor: pointer;position: relative;float: left;}
 .games--main section  h1 {margin: 0;padding-bottom: 15px;font-size: 52px;color: white;text-align: center;font-weight: 900;line-height: .96;letter-spacing: .02em; text-transform: uppercase;transition: all 0.5s ease;}
 @media (max-width: 600px){
   .top-section {margin-top: 0px;}
-  .games--main{margin-top: 60px;}
+  .games--main{margin-top: 0px;}
   .home-games2018:hover h1{-webkit-text-stroke-color: transparent;
     -webkit-text-stroke-width: 1px;color: #fff!important;    -webkit-text-stroke-width: 0px;}
   .home-games2018:hover span{color: transparent!important;}
@@ -225,9 +225,7 @@ padding: 17px;color: #fff;cursor: pointer;position: relative;float: left;}
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-.book--container {
-    min-height: 800px;
-}
+.book--container {min-height: 800px;margin-bottom: 20px;}
 .book--info {
     width: 80%;
     max-width: 80%;
@@ -272,6 +270,9 @@ padding: 17px;color: #fff;cursor: pointer;position: relative;float: left;}
 .casestudy-img-ctn{background-color: #f6f6f6;width: 100%;padding: 25px 0;margin-bottom: 10px;height: 250px;display: flex;justify-content: center;align-items: center;}
 .casestudy-copy-ctn{width: 80%;margin: 0 auto;color: #000;}
 .article--work--btns{margin-top: 10px;margin-bottom: 10px;}
+.hero-link{color:#fff!important;text-decoration: underline;transition: all .25s ease-in-out;}
+.hero-link:hover{color: #551a8b!important;}
+
 
 /*WORK ARTICLE PAGE CSS------------------------------------------------*/
 
@@ -282,8 +283,8 @@ padding: 17px;color: #fff;cursor: pointer;position: relative;float: left;}
 margin-top: 10px;}
 .single-image{padding:25px 0;}
 .multi-image-ctn{display: flex;background-color: #f6f6f6;margin-bottom: 25px !important;
-margin-top: 10px;justify-content: space-evenly;}
-.multi-image{width: 50%;max-height: 500px;object-fit: contain;padding:25px 0px;}
+margin-top: 10px;justify-content: space-evenly;flex-flow: row wrap;}
+.multi-image{max-height: 500px;object-fit: contain;padding:25px 0px;}
 .multi-image-3{max-height: 500px;object-fit: contain;padding:25px 0px;}
 .hero-tagline{margin-bottom: 0 !important;margin-top: 8px;color: #fff;}
 .work-copy h4{font-weight: bold;}
@@ -291,7 +292,7 @@ margin-top: 10px;justify-content: space-evenly;}
 /*FOOTER CSS--------------------------------------------------------*/
 
 .footer-wrapper{text-align: center;}
-.footer-menu{display: flex;justify-content: center;flex-direction: column;}
+.footer-menu{display: flex;justify-content: center;flex-direction: column;margin: 0 auto;}
 .site-footer{border: 0px solid;}
 .footer-col{margin-bottom: 0;padding: 0;}
 .footer-col a{color: #000;}
@@ -321,7 +322,7 @@ margin-top: 10px;justify-content: space-evenly;}
 
 @media(max-width: 600px){
     .main-menu-ctn{margin-top: 15px;}
-    .hero---title {width: 85% !important;margin: 0 auto !important; margin-top: 0px;margin-bottom: 0px;
+    .hero---title {width: 90% !important;margin: 0 auto !important; margin-top: 0px;margin-bottom: 0px;
     margin-top: 25px !important;margin-bottom: 35px !important;}
     .cd-hero {margin-top: 0px;}
     .books--ctn{padding: 0px;}
@@ -332,4 +333,13 @@ margin-top: 10px;justify-content: space-evenly;}
      opacity: 1;-webkit-transform: translate3d(0,0px,0);transform: translate3d(0,0px,0);}
      .book--heading { -webkit-transform: translate3d(0,0px,0);transform: translate3d(0,0px,0);-webkit-transition: -webkit-transform 0.35s;
 transition: transform 0.35s;padding: 0 !important;}
+  .allwork-ctn{padding:0px;}
+  .work-featuredimg{display: none!important;}
+  .hero---title{padding: 50px 25px!important;}
+  .post-content-ctn {padding: 18px;}
+  .post-content-ctn .col-sm-2{margin-bottom: 23px;}
+  .work-copy {width: 100%;}
+  .home-intro h2 {font-size: 50px;}
+  .book--img{max-width: 100%;}
+  .book--info{width:90%;max-width: 100%;}
 }
