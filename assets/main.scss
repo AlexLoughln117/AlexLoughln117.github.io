@@ -225,7 +225,7 @@ padding: 17px;color: #fff;cursor: pointer;position: relative;float: left;}
     flex-wrap: wrap;
     justify-content: flex-start;
 }
-.book--container {min-height: 800px;margin-bottom: 20px;}
+.book--container {min-height: 800px;}
 .book--info {
     width: 80%;
     max-width: 80%;
@@ -309,7 +309,7 @@ margin-top: 10px;justify-content: space-evenly;flex-flow: row wrap;}
      .article-intro{height: auto;}
      .home-intro {padding: 25px 0;}
      .home-intro h2 {word-wrap: break-word;width: 100%;padding: 0 25px;font-size: 60px;}
-     .home-intro h3 {width: 100%;padding: 0 25px;}
+     .home-intro h3 {width: 100%;padding: 0 25px;margin-bottom: 0px!important;margin-top: 15px;}
      .article h4{width: auto;}
      .article h1 {text-align: left;font-size: 75px;}
      .home-games2018 h1 {padding: 0 25px;}
@@ -321,7 +321,7 @@ margin-top: 10px;justify-content: space-evenly;flex-flow: row wrap;}
 }
 
 @media(max-width: 600px){
-    .main-menu-ctn{margin-top: 15px;}
+    .main-menu-ctn{}
     .hero---title {width: 90% !important;margin: 0 auto !important; margin-top: 0px;margin-bottom: 0px;
     margin-top: 25px !important;margin-bottom: 35px !important;}
     .cd-hero {margin-top: 0px;}
@@ -342,4 +342,5 @@ transition: transform 0.35s;padding: 0 !important;}
   .home-intro h2 {font-size: 50px;}
   .book--img{max-width: 100%;}
   .book--info{width:90%;max-width: 100%;}
+  .home-intro {padding: 55px 0px;}
 }
