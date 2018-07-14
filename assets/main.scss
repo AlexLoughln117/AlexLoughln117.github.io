@@ -120,17 +120,16 @@ opacity: 1;-webkit-transform: translate3d(0,40px,0);transform: translate3d(0,15p
 .myJam--imgCtn {background-color: #000000;display: flex;justify-content: center;padding: 25px;padding-right: 25px;padding-left: 25px;}
 .myJam--contentCtn {background-color: #000000;display: flex;justify-content: center;padding: 25px;padding-right: 25px;padding-left: 25px;}
 .homepage-blog{transition: all 0.5s ease;margin-bottom: 15px; z-index: 3; width:33.33%!important;min-height: 400px;background-position: center;background-size: cover;background-repeat: no-repeat;}
-.blog--center{flex-wrap: wrap;width: 70%;display: flex;justify-content: space-evenly;}
+.blog--center{margin-top:-40px;flex-wrap: wrap;width: 70%;display: flex;justify-content: space-evenly;}
 .box-blog {background-color: #FF3CAC;
 background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
-display: flex;flex-direction: column;height: 100%;}
+display: flex;flex-direction: column;}
 .home-blog-title{color: #fff!important;}
 .home-blog-overlay{height: 100%;width: 100%;background-color: rgba(0,0,0,0.5);display: flex;justify-content: center;align-items: center;text-align: center;}
 .homepage-blog:hover{box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);webkit-transform: scale(1.05, 1.05);transform: scale(1.05, 1.05);}
 .blog--heading { -webkit-transform: translate3d(0, 0px, 0);
 transform: translate3d(0, 0px, 0);-webkit-transition: -webkit-transform 0.35s;transition: transform 0.35s;padding: 0 !important;
-color: #fff!important;margin-top:-40px;
-}
+color: #fff!important;}
 
 /*LISTING POSTS CSS-----------------------------*/
 
@@ -350,7 +349,8 @@ margin-top: 10px;justify-content: space-evenly;flex-flow: row wrap;}
      .blog-articles{margin-top: 25px;}
      .homepage-blog{width: 100%!important;min-height: 350px;}
      .blog--heading{margin-top: 0px;font-size: 60px!important;}
-     .box-blog{padding:35px 0px; }
+     .box-blog{padding:35px 0px;height: 100%;}
+     .blog--center{margin-top:0px;}
 }
 
 @media(max-width: 600px){
@@ -377,4 +377,5 @@ transition: transform 0.35s;padding: 0 !important;}
   .book--info{width:90%;max-width: 100%;}
   .home-intro {padding: 55px 0px;}
   .header-wrapper .col-md-9{margin-top: 15px;}
+  .blog--heading{font-size: 50px!important;}
 }
