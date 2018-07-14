@@ -25,6 +25,27 @@ layout: default
            </div>
       </div>
     </a>
+    
+    <div class="article box-blog">
+          <h1 class="blog--heading" style="">Thoughts</h1>
+          <div class="article--center blog--center">
+              {% for post in site.posts %}
+                {% if post.categories contains 'blog' limit: 3 %}
+                <a href="{{ post.url | relative_url }}" class="col-float homepage-blog" style="background-image: url({{ post.featured-img }});">
+                  <div class="home-blog-overlay">
+                          <div class="book--info" style=""> 
+                          <h2 style="" class="home-blog-title">{{ post.title }}</h2>
+                           <h4 class="book--title" style="">{{ post.tagline }}</h4>
+                            </div> 
+                     
+                  </div>
+              </a>
+                {% endif %}
+              {% endfor %}
+
+          </div>
+      </div>
+     
     <a href="/category/books"> 
       <div class="article box-three">
           <div class="article--center book--center">

@@ -1,0 +1,41 @@
+---
+layout: default
+---
+
+
+    <div class="blog-articles-ctn">
+      
+      <h1 class="" style="color: #fff;
+                        font-weight: 700;font-size: 40px;
+                       ">
+                        {{ page.title }}</h1>
+
+      <div class="blog-articles">
+           {% for post in site.categories[page.category] %}
+
+          <div class="article-blog" style="">
+              <div class="">
+                   
+                        <div class="col-float "> 
+                          <div class="games--container">
+                               {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                                 <h4 style="" class="article--game--date">{{ post.date | date: date_format }}</h4>
+                                 <h4 style="width: 100%;" class="article--game--title"> {{ post.title | escape }}</h4>
+                                 
+                                  <p style=""> {{ post.tagline | escape }}</p>
+                                 
+                                 <div>
+                                    <a href="{{ post.url | relative_url }}">Read More</a>
+                                 </div>
+                                 <hr style="margin-top: 20px;">
+                          </div>
+                       </div> 
+                      
+              </div>
+               
+          </div>
+          {% endfor %}
+      </div>
+
+      
+ </div>

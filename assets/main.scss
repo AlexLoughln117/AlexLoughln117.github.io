@@ -119,6 +119,18 @@ opacity: 1;-webkit-transform: translate3d(0,40px,0);transform: translate3d(0,15p
 .myJamSub {font-style: italic;}
 .myJam--imgCtn {background-color: #000000;display: flex;justify-content: center;padding: 25px;padding-right: 25px;padding-left: 25px;}
 .myJam--contentCtn {background-color: #000000;display: flex;justify-content: center;padding: 25px;padding-right: 25px;padding-left: 25px;}
+.homepage-blog{transition: all 0.5s ease;margin-bottom: 15px; z-index: 3; width:33.33%!important;min-height: 400px;background-position: center;background-size: cover;background-repeat: no-repeat;}
+.blog--center{flex-wrap: wrap;width: 70%;display: flex;justify-content: space-evenly;}
+.box-blog {background-color: #FF3CAC;
+background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+display: flex;flex-direction: column;height: 100%;}
+.home-blog-title{color: #fff!important;}
+.home-blog-overlay{height: 100%;width: 100%;background-color: rgba(0,0,0,0.5);display: flex;justify-content: center;align-items: center;text-align: center;}
+.homepage-blog:hover{box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);webkit-transform: scale(1.05, 1.05);transform: scale(1.05, 1.05);}
+.blog--heading { -webkit-transform: translate3d(0, 0px, 0);
+transform: translate3d(0, 0px, 0);-webkit-transition: -webkit-transform 0.35s;transition: transform 0.35s;padding: 0 !important;
+color: #fff!important;margin-top:-40px;
+}
 
 /*LISTING POSTS CSS-----------------------------*/
 
@@ -183,6 +195,21 @@ padding: 17px;color: #fff;cursor: pointer;position: relative;float: left;}
 .article--sidebar {display: flex;justify-content: center;}
 .postlist-img{display: flex;align-items: center;}
 .post-credits{width: 80%;margin: 0 auto;}
+
+/*BLOG POSTS PAGE CSS------------------------------------------------------------*/
+
+.blog-articles-ctn{display: flex;background-color: #F97794;
+background-image: linear-gradient(135deg, #43CBFF 0%, #9708CC 100%) !important;padding: 75px;flex-direction: column;min-height: 90vh;}
+.blog-articles{display: flex;margin-top: 50px;flex-flow: row wrap;justify-content: space-between;}
+.article-blog{height: auto;
+width: 48%;
+display: flex;
+justify-content: center;
+align-items: center;
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;margin-bottom: 40px;}
 
 /*ALL GAMES PAGE CSS--------------------------------------------*/
 
@@ -318,6 +345,12 @@ margin-top: 10px;justify-content: space-evenly;flex-flow: row wrap;}
      .site-nav label {margin-bottom: 0px;}
      .hero---title {width: 55% !important;margin: 0 auto !important;margin-top: 100px !important;margin-bottom: 35px !important;}
      .home-games2018{width: 100%;}
+     .article-blog{width: 100%;}
+     .blog-articles-ctn{padding: 50px 15px;}
+     .blog-articles{margin-top: 25px;}
+     .homepage-blog{width: 100%!important;min-height: 350px;}
+     .blog--heading{margin-top: 0px;font-size: 60px!important;}
+     .box-blog{padding:35px 0px; }
 }
 
 @media(max-width: 600px){
