@@ -4,7 +4,7 @@ title: Online Privacy
 date: '2018-01-20 11:14:28 +0100'
 categories: blog
 featured-img: /assets/images/post-images/privacy-1000x500.jpg
-tagline: What is the acceptable level of paranoia to our privacy in the modern age of omnipresent tech?
+tagline: What is the acceptable level of paranoia of our privacy in the modern age of omnipresent tech?
 published: true
 ---
 
