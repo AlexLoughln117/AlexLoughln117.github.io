@@ -24,7 +24,7 @@ background-size: cover;}
     .cd-hero{height: 400px;}
 }
 @media (min-width: 1024px){
-    .cd-hero{height: 76vh;}
+    .cd-hero{height: 500px;}
 }
 .cd-hero .cd-hero-content {display: table-cell;vertical-align: middle;background-color: #fff;}
 
@@ -134,7 +134,7 @@ color: #fff!important;}
 /*LISTING POSTS CSS-----------------------------*/
 
 .article--game--center{display: flex;}
-.hero---title{ background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);}
+.hero---title{ background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);max-width: 600px;}
 .hero---title h1{margin-bottom: 0px;}
 .Hero-work{background-color: #21D4FD;background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);}
 .Hero-books{background-image: linear-gradient(135deg, #E8D07A 0%, #5312D6 100%);}
@@ -189,7 +189,7 @@ transform: scale(1.05,1.05);text-decoration: none;}
 /*ARTICLE/POST PAGE CSS-----------------------------------------*/
 
 .post-content-ctn{padding: 40px;}
-.article--share {margin: 0 1px;padding: 8px;background-color: #ad0c27;background-clip: inherit;border: 1px solid #ad0c27;width: 5%;
+.article--share {margin: 0 1px;padding: 8px;background-color: #ad0c27;background-clip: inherit;border: 1px solid #ad0c27;
 padding: 17px;color: #fff;cursor: pointer;position: relative;float: left;}
 .article--sidebar {display: flex;justify-content: center;}
 .postlist-img{display: flex;align-items: center;}
