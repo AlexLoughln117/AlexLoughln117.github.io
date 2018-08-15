@@ -1,0 +1,8 @@
+---
+layout: post
+title: Okami HD
+date: '2018-04-01 11:14:28 +0100'
+categories: games2018
+featured-img: /assets/images/post-images/okami.jpg
+published: false
+---
