@@ -3,8 +3,8 @@ layout: post
 title: My 2018 Reading List
 date: '2018-12-29 11:14:28 +0100'
 categories: blog
-featured-img: /assets/images/book-images/stoner.jpg
-tagline: Here's the list of everything I read in 2018. A great year filled with great books. 
+featured-img: /assets/images/book-images/Stoner.jpg
+tagline: Here's the list of everything I read in 2018. A great year filled with great books.
 published: true
 ---
 
