@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Mass Effect Andromeda
-date: '2017-06-08 11:14:28 +0100'
-categories: games2017
+date: '2018-06-08 11:14:28 +0100'
+categories: games2018
 featured-img: /assets/images/post-images/mass-effect-andromeda.jpg
 published: true
 ---

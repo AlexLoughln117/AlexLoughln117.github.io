@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Horizon Zero Dawn
-date: '2017-04-21 11:14:28 +0100'
-categories: games2017
+date: '2018-04-21 11:14:28 +0100'
+categories: games2018
 featured-img: /assets/images/post-images/horizon-zero-dawn.jpg
 published: true
 ---

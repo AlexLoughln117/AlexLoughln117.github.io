@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Destiny 2
-date: '2017-10-16 11:14:28 +0100'
-categories: games2017
+date: '2018-10-16 11:14:28 +0100'
+categories: games2018
 featured-img: /assets/images/post-images/destiny_2_main.jpg
 published: true
 ---

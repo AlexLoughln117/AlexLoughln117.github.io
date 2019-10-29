@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Rise of the Tomb Raider
-date: '2017-08-08 11:14:28 +0100'
-categories: games2017
+date: '2018-08-08 11:14:28 +0100'
+categories: games2018
 featured-img: /assets/images/post-images/rise-of-the-tomb-raider.jpg
 published: true
 ---

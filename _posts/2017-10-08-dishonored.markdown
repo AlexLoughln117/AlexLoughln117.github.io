@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Dishonored Death of the Outsider
-date: '2017-10-08 11:14:28 +0100'
-categories: games2017
+date: '2018-10-08 11:14:28 +0100'
+categories: games2018
 featured-img: /assets/images/post-images/Dishonored_Death_of_the_Outsider.jpg
 published: true
 ---

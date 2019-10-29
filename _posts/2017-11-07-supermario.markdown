@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Super Mario Odyssey
-date: '2017-11-07 11:14:28 +0100'
-categories: games2017
+date: '2018-11-07 11:14:28 +0100'
+categories: games2018
 featured-img: /assets/images/post-images/odyssey-main.png
 published: true
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Dishonored 2
-date: '2017-01-20 11:14:28 +0100'
-categories: games2017
+date: '2018-01-20 11:14:28 +0100'
+categories: games2018
 featured-img: /assets/images/post-images/d2.jpg
 published: true
 ---

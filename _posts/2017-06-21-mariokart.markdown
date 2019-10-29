@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Mario Kart 8 Deluxe
-date: '2017-06-21 11:14:28 +0100'
-categories: games2017
+date: '2018-06-21 11:14:28 +0100'
+categories: games2018
 featured-img: /assets/images/post-images/mario_kart_8_deluxe.jpg
 published: true
 ---
