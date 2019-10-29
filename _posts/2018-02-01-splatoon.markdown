@@ -2,7 +2,7 @@
 layout: post
 title: Splatoon 2
 date: '2018-02-01 11:14:28 +0100'
-categories: games2018
+categories: games2019
 featured-img: /assets/images/post-images/splatoon.jpeg
 published: true
 ---
