@@ -5,7 +5,7 @@ date: '2019-12-19 11:14:28 +0100'
 categories: work
 allwork-img: /assets/images/work-images/blakademik-logo.svg
 featured-img: /assets/images/work-images/blakademik-logo.svg
-platform: Wordpress - Custom Theme
+platform: Wordpress
 language: 'HTML5, CSS, PHP, jQuery'
 headline: >-
   A bold and modern website to be the home for an exciting discussion series
