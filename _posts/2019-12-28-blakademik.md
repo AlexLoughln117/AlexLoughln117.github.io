@@ -19,16 +19,16 @@ We knew that the website for Blakademik had to be as bold and vibrant as the sho
 [Visit It's All Blakademik](https://blakademik.com/ "Blakademik")
 
 {: .single-image-ctn}
-![image-title-here](/assets/images/work-images/blakademik1.png){:class="work-image single-image"}
+![Homepage Hero](/assets/images/work-images/blakademik1.png){:class="work-image single-image"}
 
 During this project I delivered the entire website including all front end work and the small amount of backend work needed. Involved from the first client meeting, I worked closely with the lead designer to make sure the final website matched their designs as closely as possible.
 The website itself is a fully custom Wordpress theme including Gulp and CircleCi integration to link version control, code compiling and deployment.
 
 {: .single-image-ctn}
-![image-title-here](/assets/images/work-images/blakademik2.png){:class="work-image single-image"}
+![Videos Page](/assets/images/work-images/blakademik2.png){:class="work-image single-image"}
 {: .single-image-ctn}
-![image-title-here](/assets/images/work-images/blakademik4.png){:class="work-image single-image"}
+![Single Video](/assets/images/work-images/blakademik3.png){:class="work-image single-image"}
 {: .single-image-ctn}
-![image-title-here](/assets/images/work-images/blakademik4.png){:class="work-image single-image"}
+![Blog](/assets/images/work-images/blakademik4.png){:class="work-image single-image"}
 {: .single-image-ctn}
-![image-title-here](/assets/images/work-images/blakademik5.png){:class="work-image single-image"}
+![About](/assets/images/work-images/blakademik5.png){:class="work-image single-image"}
