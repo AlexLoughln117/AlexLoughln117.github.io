@@ -9,7 +9,7 @@ platform: Wordpress
 language: 'HTML5, CSS, PHP, jQuery'
 headline: >-
   A bold and modern website to be the home for an exciting discussion series
-  from a uniquely black perspective.
+  which has a uniquely black perspective.
 ---
 #### The Short:
 
