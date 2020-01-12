@@ -1,5 +1,6 @@
 ---
 published: true
+title: It's All Blakademik
 layout: casestudy
 date: '2019-12-19 11:14:28 +0100'
 categories: work
