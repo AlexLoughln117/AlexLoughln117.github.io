@@ -291,13 +291,29 @@ transition: all 0.5s ease;margin-bottom: 40px;}
 .work-link{color: #000;}
 .work-link:hover{text-decoration: none;}
 .article--work{text-align: center; display: flex;flex-direction: column; height: 100%;width: 100%;margin:0 auto; justify-content: center;align-items: center;padding: 0 15px;}
-.casestudy-img{max-height: 200px;object-fit: contain;max-width: 75%;}
+.casestudy-img{max-height: 200px;object-fit: contain;max-width: 300px;}
 .article--work--title{font-size: 32px;line-height: 1;padding-top: 10px;line-height: 1;}
-.casestudy-img-ctn{background-color: #f6f6f6;width: 100%;padding: 25px 0;margin-bottom: 10px;height: 250px;display: flex;justify-content: center;align-items: center;}
-.casestudy-copy-ctn{width: 80%;margin: 0 auto;color: #000;}
+.casestudy-img-ctn{
+  margin-bottom: 25px;
+  background-color: #f6f6f6;width: 100%;padding: 25px 0;margin-bottom: 10px;height: 250px;display: flex;justify-content: center;align-items: center;}
+.casestudy-copy-ctn{
+  width: 80%;margin: 0 auto;color: #000;
+   h4{
+     width: 100%;
+   }
+}
 .article--work--btns{margin-top: 10px;margin-bottom: 10px;}
 .hero-link{color:#fff!important;text-decoration: underline;transition: all .25s ease-in-out;}
 .hero-link:hover{color: #551a8b!important;}
+.allwork-ctn{
+  .row{
+    margin: 0;display: flex;flex-flow: row wrap;justify-content: center;
+    .col-md-6{
+      margin-bottom:50px;
+    }
+  }
+}
+
 
 
 /*WORK ARTICLE PAGE CSS------------------------------------------------*/
@@ -327,15 +343,13 @@ margin-top: 10px;justify-content: space-evenly;flex-flow: row wrap;}
 /*MOBILE CSS--------------------------------------------------------*/
 
 @media(max-width: 800px){
-     .site-nav{}
      .article--game--center{flex-wrap: wrap;}
      .article--game--center .col-md-6{padding: 0px;}
      .home-games2018 h1{width: auto;}
      .article{max-height: none;width: 100vw;}
-
-     .home-intro {padding: 25px 0;}
+     .home-intro {padding: 25px 0;width: 80%;}
      .home-intro h2 {word-wrap: break-word;width: 100%;padding: 0 25px;font-size: 60px;}
-     .home-intro h3 {width: 100%;padding: 0 25px;margin-bottom: 0px!important;margin-top: 15px;}
+     .home-intro h3 {width: 100%;padding: 15px 25px;margin-bottom: 0px!important;}
      .article h4{width: auto;}
      .article h1 {text-align: left;font-size: 75px;}
      .home-games2018 h1 {padding: 0 25px;}
