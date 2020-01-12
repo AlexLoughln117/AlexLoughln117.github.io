@@ -332,7 +332,7 @@ margin-top: 10px;justify-content: space-evenly;flex-flow: row wrap;}
      .article--game--center .col-md-6{padding: 0px;}
      .home-games2018 h1{width: auto;}
      .article{max-height: none;width: 100vw;}
-     .article-intro{height: auto;}
+
      .home-intro {padding: 25px 0;}
      .home-intro h2 {word-wrap: break-word;width: 100%;padding: 0 25px;font-size: 60px;}
      .home-intro h3 {width: 100%;padding: 0 25px;margin-bottom: 0px!important;margin-top: 15px;}
@@ -353,7 +353,8 @@ margin-top: 10px;justify-content: space-evenly;flex-flow: row wrap;}
      .blog--center{margin-top:0px;}
 }
 
-@media(max-width: 400px){
+@media(max-width: 500px){
+    .article-intro{height: auto;}
     .main-menu-ctn{}
     .hero---title {width: 90% !important;margin: 0 auto !important; margin-top: 0px;margin-bottom: 0px;
     margin-top: 25px !important;margin-bottom: 35px !important;}
