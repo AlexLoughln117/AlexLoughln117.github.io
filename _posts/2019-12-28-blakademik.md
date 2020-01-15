@@ -12,8 +12,6 @@ headline: >-
   A bold and modern website to be the home for an exciting discussion series
   which has a uniquely black perspective.
 ---
-#### The Short:
-
 When Jordan Jarrett-Bryan came to Drew London with the Blakademik project he explained it in such a clear and succinct way, we couldn’t say no. From Jordan, as he explains it best, It’s All Blakademik is an online show giving intelligent & engaging black individuals a space to debate current affairs. Conscious, honest and progressive chat is what we are about.
 We knew that the website for Blakademik had to be as bold and vibrant as the show and discussions themselves.
 
