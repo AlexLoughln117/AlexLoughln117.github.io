@@ -35,11 +35,15 @@ layout: default
                           {%- endif -%}
                         </p>
 
-                          {% if post.content.size > post.excerpt.size %}
+                      {% capture title_size %}{{ post.content  | size }}{% endcapture %}
 
-                         <div>
-                            <a href="{{ post.url | relative_url }}">Read More</a>
-                         </div>
+                      {% if title_size > 150 %}
+                      <div>
+                         <a href="{{ post.url | relative_url }}">Read More</a>
+                      </div>
+                      {% endif %}
+
+
                   </div>
                </div>
 
