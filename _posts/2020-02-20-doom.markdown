@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Doom 3 (Switch)
-date: '2020-02-015 11:14:28 +0100'
+date: '2020-02-15 11:14:28 +0100'
 categories: playing
 featured-img:
 published: true
