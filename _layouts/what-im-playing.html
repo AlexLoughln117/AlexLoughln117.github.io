@@ -28,7 +28,7 @@ layout: default
                 <div class="col-md-12 col-float ">
                   <div class="games--container">
                        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                         <p class="tag">{{ post.tag | escape }}</p>
+                         <div class="tag">{{ post.tag | escape }}</div>
                          <h4 style="width: 100%;" class="article--game--title"> {{ post.title | escape }}</h4>
                          <h4 style="" class="article--game--date">{{ post.date | date: date_format }}</h4>
                          <hr>
