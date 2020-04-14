@@ -5,7 +5,7 @@ date: '2018-11-07 11:14:28 +0100'
 categories: playing
 featured-img: /assets/images/post-images/odyssey-main.png
 published: true
-tags: besties
+tag: besties
 ---
 
 Man, Nintendo is on a roll, a serious roll. Zelda, Mario Kart, Splatoon and now this, the best Mario game in years. 2017 is the year of Nintendo. And Super Mario Odyssey is the photo finish to prove it.

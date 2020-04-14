@@ -5,7 +5,7 @@ date: '2018-07-14 11:14:28 +0100'
 categories: playing
 featured-img: /assets/images/post-images/breath-of-the-wild.jpg
 published: true
-tags: GOAT
+tag: GOAT
 ---
 
 Full disclosure – I have not yet finished this. but with nearly 50 hours of my life spent in this game. I have full confidence in saying this is not just one of the best games I have played this year but that I have played ever.
