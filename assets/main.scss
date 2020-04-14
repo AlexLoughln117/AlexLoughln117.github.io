@@ -346,6 +346,7 @@ margin-top: 10px;justify-content: space-evenly;flex-flow: row wrap;}
     }
   .article--game--title{
     color: #000;
+    text-transform: none;
   }
   .games--container p{
     color: #000;
@@ -359,9 +360,27 @@ margin-top: 10px;justify-content: space-evenly;flex-flow: row wrap;}
     width: fit-content;
      padding: 0;
   }
+  .games--container a:hover{
+        transform: scale(1, 1);
+         text-decoration: underline;
+  }
   hr{
 
   }
+}
+.tag{
+  text-decoration: none;
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+  background: #44B6E7;
+  color: white;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  border-bottom: none;
 }
 
 /*FOOTER CSS--------------------------------------------------------*/
