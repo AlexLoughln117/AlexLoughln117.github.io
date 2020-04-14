@@ -331,6 +331,39 @@ margin-top: 10px;justify-content: space-evenly;flex-flow: row wrap;}
 .hero-tagline{margin-bottom: 0 !important;margin-top: 8px;color: #fff;}
 .work-copy h4{font-weight: bold;}
 
+// What I'm PLaying CSS--------------------------------------------
+
+.what-im-playing{
+  .article--game{
+    background-color: #fff;
+    min-height: auto;
+  }
+  .games--container{
+    max-width: 600px;
+  }
+  .article--game--date {
+    color: #000;
+    }
+  .article--game--title{
+    color: #000;
+  }
+  .games--container p{
+    color: #000;
+  }
+  hr{
+    color: #000;
+  }
+  .games--container a{
+    background-image:none;
+    color: #000;
+    width: fit-content;
+     padding: 0;
+  }
+  hr{
+
+  }
+}
+
 /*FOOTER CSS--------------------------------------------------------*/
 
 .footer-wrapper{text-align: center;}
