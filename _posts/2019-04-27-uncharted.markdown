@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Uncharted: The Lost Legacy"
-date:   2019-02-16 11:14:28 +0100
-categories: games2019
+title:  Uncharted: The Lost Legacy
+date:   2019-10-27 11:14:28 +0100
+categories: playing
 featured-img: "/assets/images/post-images/Uncharted.png"
 ---
 The most refreshing thing about Uncharted: Lost Legacy is not the new gameplay twists or exciting locales. But the well written, funny and touching between two women, one who is mixed race and one who is Black South African. It is rare, in any media, to see a story like this but in games, this might be a first. Lost Legacy shows that Uncharted loses nothing by dropping Nathan Drake, it still has all the fun, drama and fizzle the series is known for but is finally telling a worthwhile tale as well.
