@@ -31,16 +31,15 @@ layout: default
 
                           <p class="game-content">
                             {%- if site.show_excerpts -%}
-                            {{ post.excerpt | strip_html | strip_newlines | truncatewords: 150 }}
+                            {{ post.content | strip_html | truncatewords: 150 }}
                           {%- endif -%}
                         </p>
 
+                          {% if post.content.size > post.excerpt.size %}
 
-                          <div>
-                             <a href="{{ post.url | relative_url }}">Read More</a>
-                          </div>
-
-
+                         <div>
+                            <a href="{{ post.url | relative_url }}">Read More</a>
+                         </div>
                   </div>
                </div>
 
