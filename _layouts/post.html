@@ -3,7 +3,7 @@ layout: default
 ---
 
 <section class="cd-hero" {% if page.featured-img %} style="background-image: url('{{ page.featured-img }}');background-repeat:no-repeat;background-size: cover;" {% endif %}">
-                <div class="cd-hero-content" style="background-color: rgba(46, 65, 73, 0.4)!important;">
+                <div class="cd-hero-content">
                   <h1 class="hero---title" style="color: #fff;
                         font-weight: 700;
                         width: 45%;
@@ -12,7 +12,7 @@ layout: default
                         padding: 50px;">
                         {{ page.title | escape }}</h1>
                   </div>
-            </section> 
+            </section>
             <main id="main" class="site-main">
               <div class="post-content-ctn">
                  <div class="row">
@@ -20,13 +20,13 @@ layout: default
                           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                            <p>Date: <span class="article--date" style="font-style: italic;">{{ page.date | date: date_format }}</span></p>
                             {%- if page.author -%}
-                           <p  style="color: #183f63;font-weight: 700; letter-spacing: .3px;letter-spacing: .01875rem;">By {{ page.author }}</p> 
+                           <p  style="color: #183f63;font-weight: 700; letter-spacing: .3px;letter-spacing: .01875rem;">By {{ page.author }}</p>
                             {%- endif -%}
                            </div>
                           <div class="col-sm-6 article--copy">
 <!--                               <h4><?php echo get_field( "sub-heading" ); ?></h4> -->
                               {{ content }}
-                          </div> 
+                          </div>
 
                           <div class="col-sm-3 article--sidebar">
                               <a href="https://twitter.com/intent/tweet?text=alexloughlin.com{{ page.url }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" rel="nofollow" target="_blank"><div class="article--share"> <i class="article-icons fab fa-twitter" style="color: #fff;" aria-hidden="true"></i></div></a>
@@ -35,15 +35,14 @@ layout: default
                           </div>
                     </div>
               </div>
-                    
-                     
+
+
 
                  <div class="post-credits">
                   <hr style="background-image: linear-gradient( 135deg, #F97794 0%, #623AA2 100%);height: 1px;">
                   {%- if page.author -%}
                   <p>{{ page.author }}</p>
                    {%- endif -%}
-                 </div>          
+                 </div>
 
                </main>
-

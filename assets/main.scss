@@ -135,7 +135,7 @@ color: #fff!important;}
 
 .article--game--center{display: flex;}
 .hero---title{ background-image: linear-gradient( 135deg, #FCCF31 10%, #F55555 100%);max-width: 600px;}
-.hero---title h1{margin-bottom: 0px;}
+.hero---title h1{margin-bottom: 10px;}
 .Hero-work{background-color: #21D4FD;background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);}
 .Hero-books{background-image: linear-gradient(135deg, #E8D07A 0%, #5312D6 100%);}
 .article--game--center {padding: 30px;transition: all 0.5s ease; max-width: 1500px;}
@@ -368,10 +368,12 @@ margin-top: 10px;justify-content: space-evenly;flex-flow: row wrap;}
   }
   .games--container a{
     background-image:none;
-    color: #000;
     width: fit-content;
      padding: 0;
      margin-top: 30px;
+     color: #203640;
+    font-size: 16px;
+    line-height: 1.5;
   }
   .games--container a:hover{
         transform: scale(1, 1);
