@@ -2,9 +2,10 @@
 layout: post
 title: Wolfenstein II The New Colossus
 date: '2018-12-19 11:14:28 +0100'
-categories: games2018
+categories: playing
 featured-img: /assets/images/post-images/wolfenstein.jpg
 published: true
+tag: fucknazis
 ---
 
 * The story is batshit crazy, in the best possible way.

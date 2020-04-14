@@ -2,15 +2,14 @@
 layout: post
 title: The Legend of Zelda Breath of the Wild
 date: '2018-07-14 11:14:28 +0100'
-categories: games2018
+categories: playing
 featured-img: /assets/images/post-images/breath-of-the-wild.jpg
 published: true
+tags: GOAT
 ---
 
 Full disclosure – I have not yet finished this. but with nearly 50 hours of my life spent in this game. I have full confidence in saying this is not just one of the best games I have played this year but that I have played ever.
-
 When talking about Zelda with people, I always want to hear /how/ they did something, not just what they did in the game. Because everyone will say something slightly different. How did you clear out that Moblin camp, how did you solve that shrine puzzle? Oh well, I cut down a tree, then used stasis to launch myself over the gap. Oh well, I found a boulder, carried it up the hill and sent it rolling straight into them. Invariably that solution will be something that I would have never thought of or didn’t even realise was a thing you could do.
-
 Nintendo has turned Zelda into an amazing sandbox. Setting up detailed and intertwined systems and then letting you loose with them to have fun and see what happens. They have watched every other open-world game and gone, we can do this better. Not only did they do better but they reinvented Zelda in a way no one imagined they would. The things you expect to see in a Zelda game are all that but just different enough to leave you guessing. Even the traditional dungeons are more like intricate puzzle boxes than the locked rooms of old.
 
 Nintendo has shown, once again, that they know exactly what they are doing. A true classic.

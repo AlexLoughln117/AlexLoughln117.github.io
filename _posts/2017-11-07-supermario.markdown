@@ -2,13 +2,13 @@
 layout: post
 title: Super Mario Odyssey
 date: '2018-11-07 11:14:28 +0100'
-categories: games2018
+categories: playing
 featured-img: /assets/images/post-images/odyssey-main.png
 published: true
+tags: besties
 ---
 
 Man, Nintendo is on a roll, a serious roll. Zelda, Mario Kart, Splatoon and now this, the best Mario game in years. 2017 is the year of Nintendo. And Super Mario Odyssey is the photo finish to prove it.
-
 If Breath of the Wild was a drastic rebirth for its series, then Odyssey is a beautiful return to form. A return to the wondrous toy boxes of Mario 64 and Sunshine (I enjoyed it ok. It’s fine to like it), after the more controlled and streamlined Wii and Wii U entries. Each world in Odyssey is filled with weird and wonderful things to do, all in the search for Moons. These moons are much much more plentiful than Mario 64’s stars and around every corner there is a to get one, hidden behind a simple platforming challenge or by helping a distressed denizen of the world. It’s this change that makes Odyssey feel so creative, as your time and experimentation is always rewarded. Nintendo has filled these world’s to the brim things to do, ranging from very simple to true Mario platforming challenges. At times it feels like there a moons placed every two seconds in the worlds but luckily nearly all of them are fun to get.
 Never-mind that this is the weirdest Mario game Nintendo has ever created. There’s a New York-inspired city that’s filled with humans who don’t look like Mario?! A world filled with sentient forks who are expert cooks, with a visual style that Nintendo HAS to use in a full game. I haven’t seen something that’s so inspired me in a long time. And not to mention the game features one of the coolest video game dogs ever, best character of the year in my book.
 Odyssey feels like Nintendo’s designers were allowed to be as creative as possible, nothing was too weird or too out there and it makes for a game that is just joyous to play.
