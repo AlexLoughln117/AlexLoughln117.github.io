@@ -13,7 +13,7 @@ layout: default
                         <p style="color: #fff;">{{ page.description }}</p>
                         </div>
                   </div>
-</section> 
+</section>
 
 
     <div class="">
@@ -24,29 +24,29 @@ layout: default
                    <div class="col-md-6 postlist-img">
                      <div style="padding: 0px 15px 50px;text-align: center;"><img class="img--game" style="" src="{{ post.featured-img }}" alt=""></div>
                    </div>
-                   
-                   
-                    <div class="col-md-6 col-float "> 
+
+
+                    <div class="col-md-6 col-float ">
                       <div class="games--container">
                            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                              <h4 style="" class="article--game--date">{{ post.date | date: date_format }}</h4>
                              <h4 style="width: 100%;" class="article--game--title"> {{ post.title | escape }}</h4>
                              <hr>
-                             
+
                               <p style=""> {%- if site.show_excerpts -%}
                                 {{ post.excerpt | truncatewords:50 }}
                               {%- endif -%}</p>
-                             
+
                              <div>
                                 <a href="{{ post.url | relative_url }}">Read More</a>
                              </div>
                       </div>
-                   </div> 
-                  
+                   </div>
+
           </div>
-           
+
       </div>
 
-   
+
 {% endfor %}
  </div>

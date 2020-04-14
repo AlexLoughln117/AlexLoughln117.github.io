@@ -30,7 +30,7 @@ layout: default
                          <hr>
 
                           <p style=""> {%- if site.show_excerpts -%}
-                            {{ post.excerpt | truncatewords:150 }}
+                            {{ post.content | strip_html | truncatewords: 150 }}
                           {%- endif -%}</p>
 
                          <div>
