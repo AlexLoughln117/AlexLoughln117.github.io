@@ -29,7 +29,7 @@ layout: default
                          <h4 style="" class="article--game--date">{{ post.date | date: date_format }}</h4>
                          <hr>
 
-                          <p style=""> {%- if site.show_excerpts -%}
+                          <p class="game-content"> {%- if site.show_excerpts -%}
                             {{ post.content | strip_html | truncatewords: 150 }}
                           {%- endif -%}</p>
 
