@@ -2,9 +2,10 @@
 layout: post
 title: Doom
 date: '2018-01-27 11:14:28 +0100'
-categories: games2018
+categories: playing
 featured-img: /assets/images/post-images/doom.jpg
 published: true
+tag: takemetohell
 ---
 
 Games should be fun, first and foremost. Yes, they can be and are art. But sometimes you just want to lose yourself in exactly what video games are, games. This is what Doom sets out to do and thankfully, achieves.

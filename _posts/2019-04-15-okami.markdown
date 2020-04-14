@@ -5,7 +5,7 @@ date: '2019-10-29 11:14:28 +0100'
 categories: playing
 featured-img: /assets/images/post-images/okami.jpg
 published: true
-tags: stonecoldclassic
+tag: stonecoldclassic
 ---
 
 Okami HD is a 2018 re-release of Clover Studio’s seminal 2006 PS2 action-adventure game. Simply put if you enjoy The Legend of Zelda style games or action-adventure in general, you must play Okami. It is one of the finest examples of this genre and even holds up excellently today. Okami managed to out Nintendo-Nintendo and make a Zelda style game that was better than The Twilight Princess which was realised the same year. A beautiful game which was the crowning achievement of Clover Studios upon release, Okami deserves a place on everyone's shelf.

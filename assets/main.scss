@@ -26,7 +26,7 @@ background-size: cover;}
 @media (min-width: 1024px){
     .cd-hero{height: 500px;}
 }
-.cd-hero .cd-hero-content {display: table-cell;vertical-align: middle;background-color: #fff;}
+.cd-hero .cd-hero-content {display: table-cell;vertical-align: middle;background-color: transparent;}
 
 
 /*HEADER CSS--------------------------*/
@@ -380,9 +380,9 @@ margin-top: 10px;justify-content: space-evenly;flex-flow: row wrap;}
          text-decoration: underline;
          box-shadow: none;
   }
-  hr{
-
-  }
+  .games--container ul {
+    color: #203640;
+   }
 }
 .tag{
   text-decoration: none;

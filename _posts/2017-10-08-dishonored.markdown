@@ -2,9 +2,10 @@
 layout: post
 title: Dishonored Death of the Outsider
 date: '2018-10-08 11:14:28 +0100'
-categories: games2018
+categories: playing
 featured-img: /assets/images/post-images/Dishonored_Death_of_the_Outsider.jpg
 published: true
+tag: besties
 ---
 
 Dishonored: Death of the Outsider is not simply more content for Dishonored 2. But an old-school expansion with more stuff in it that other full priced games. Death of the Outsider takes everything that was great about Dishonored 2, adds some new and refreshing twists and makes the return to Karnaca more than worth your time.
