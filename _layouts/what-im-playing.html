@@ -32,7 +32,7 @@ layout: default
                           <p class="game-content">
                             {%- if site.show_excerpts -%}
                             <!-- {{ post.content | strip_html | truncatewords: 150 }} -->
-                            {{ post.excerpt | strip_html | strip_newlines | truncate: 150 }}
+                            {{ post.excerpt | strip_html | strip_newlines | truncatewords: 150 }}
                           {%- endif -%}
                         </p>
 
