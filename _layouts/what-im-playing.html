@@ -20,10 +20,6 @@ layout: default
 
   <div class="article--game" style="">
       <div class="article--game--center">
-               <!-- <div class="col-md-6 postlist-img">
-                 <div style="padding: 0px 15px 50px;text-align: center;"><img class="img--game" style="" src="{{ post.featured-img }}" alt=""></div>
-               </div> -->
-
 
                 <div class="col-md-12 col-float ">
                   <div class="games--container">
@@ -34,7 +30,7 @@ layout: default
                          <hr>
 
                           <p style=""> {%- if site.show_excerpts -%}
-                            {{ post.excerpt | truncatewords:120 }}
+                            {{ post.excerpt | truncatewords:150 }}
                           {%- endif -%}</p>
 
                          <div>
